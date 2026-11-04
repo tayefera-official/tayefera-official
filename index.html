@@ -51,28 +51,10 @@
 <script>
 const WA = "8801971969334";
 
+
 const products = [
   {
-    id: 1, name: "Jom Jom", original: 950, discount: 10, price: 855,
-    category: "Three Piece",
-    images: [
-      "1791902189360.jpg",
-      "Gemini_Generated_Image_hqa73xhqa73xhqa7.jpeg",
-      "Screenshot_2026-10-19-22-42-43-43_1c337646f29875672b5a61192b9010f9.jpg",
-      "Gemini_Generated_Image_ai7o7oai7o7oai7o.jpeg"
-    ]
-  },
-  {
-    id: 2, name: "Binhami", original: 1220, discount: 10, price: 1099,
-    category: "Three Piece",
-    images: [
-      "Gemini_Generated_Image_7lyl1k7lyl1k7lyl.jpeg",
-      "Gemini_Generated_Image_h7716gh7716gh771.jpeg",
-      "file_00000000d86c820b9fd9fa82302e0ef3.png"
-    ]
-  },
-  {
-    id: 3, name: "Mashal Batik", original: 1520, discount: 8, price: 1399,
+    id: 1, name: "Mashal Batik", original: 1520, discount: 8, price: 1399,
     category: "Three Piece",
     images: [
       "file_00000000f4388211811a7f5841bedd71.png",
@@ -81,7 +63,7 @@ const products = [
     ]
   },
   {
-    id: 4, name: "China Koton", original: 2350, discount: 8, price: 2162,
+    id: 2, name: "China Koton", original: 2350, discount: 8, price: 2162,
     category: "Three Piece",
     images: [
       "file_00000000b3ac82119dd43b8b21ccd785.png",
@@ -89,17 +71,7 @@ const products = [
     ]
   },
   {
-    id: 5, name: "Orgendi Batik", original: 999, discount: 10, price: 900,
-    category: "Three Piece",
-    images: [
-      "Gemini_Generated_Image_p3kx88p3kx88p3kx.jpeg",
-      "Gemini_Generated_Image_rp26w1rp26w1rp26.jpeg",
-      "Gemini_Generated_Image_y4qsffy4qsffy4qs.jpeg",
-      "Gemini_Generated_Image_r57bpr57bpr57bpr.jpeg"
-    ]
-  },
-  {
-    id: 6, name: "Itnakh", original: 1300, discount: 8, price: 1200,
+    id: 3, name: "Itnakh", original: 1300, discount: 8, price: 1200,
     category: "Three Piece",
     images: [
       "file_0000000090e88211ad03f2965b92045d.png",
@@ -109,15 +81,7 @@ const products = [
     ]
   },
   {
-    id: 7, name: "Chikenda Batik", original: 1650, discount: 7, price: 1500,
-    category: "Three Piece",
-    images: [
-      "Gemini_Generated_Image_sercbssercbsserc.jpeg",
-      "file_0000000017848211923f52ca3b2da8f6.png"
-    ]
-  },
-  {
-    id: 8, name: "Aabyaan Collection", original: 1660, discount: 9, price: 1500,
+    id: 4, name: "Aabyaan Collection", original: 1660, discount: 9, price: 1500,
     category: "Three Piece",
     images: [
       "file_0000000091d482118070e23a75bab2b5.png",
@@ -129,7 +93,7 @@ const products = [
     ]
   },
   {
-    id: 9, name: "Zara Dress", original: 1650, discount: 9, price: 1500,
+    id: 5, name: "Zara Dress", original: 1650, discount: 9, price: 1500,
     category: "Three Piece",
     images: [
       "file_000000006770820b91ef6be845628bfe.png",
@@ -140,7 +104,54 @@ const products = [
     ]
   },
   {
-    id: 10, name: "Zara Dress", original: 1620, discount: 8, price: 1460,
+    id: 6, name: "Jom Jom", original: 950, discount: 10, price: 855,
+    category: "Three Piece",
+    images: [
+      "1791902189360.jpg",
+      "Gemini_Generated_Image_hqa73xhqa73xhqa7.jpeg",
+      "Screenshot_2026-10-19-22-42-43-43_1c337646f29875672b5a61192b9010f9.jpg"
+    ]
+  },
+  {
+    id: 7, name: "Jom Jom - New Design", original: 950, discount: 10, price: 850,
+    category: "Three Piece",
+    images: [
+      "Gemini_Generated_Image_ai7o7oai7o7oai7o.jpeg"
+    ]
+  },
+  {
+    id: 8, name: "Orgendi Batik", original: 999, discount: 10, price: 900,
+    category: "Three Piece",
+    images: [
+      "Gemini_Generated_Image_p3kx88p3kx88p3kx.jpeg",
+      "Gemini_Generated_Image_rp26w1rp26w1rp26.jpeg",
+      "Gemini_Generated_Image_y4qsffy4qsffy4qs.jpeg"
+    ]
+  },
+  {
+    id: 9, name: "Orgendi Batik - New Design", original: 999, discount: 10, price: 900,
+    category: "Three Piece",
+    images: [
+      "Gemini_Generated_Image_r57bpr57bpr57bpr.jpeg"
+    ]
+  },
+  {
+    id: 10, name: "Binhami", original: 1220, discount: 10, price: 1099,
+    category: "Three Piece",
+    images: [
+      "Gemini_Generated_Image_7lyl1k7lyl1k7lyl.jpeg",
+      "Gemini_Generated_Image_h7716gh7716gh771.jpeg"
+    ]
+  },
+  {
+    id: 11, name: "Binhami - New Design", original: 1220, discount: 10, price: 1099,
+    category: "Three Piece",
+    images: [
+      "file_00000000d86c820b9fd9fa82302e0ef3.png"
+    ]
+  },
+  {
+    id: 12, name: "Zara Dress - Second Design", original: 1620, discount: 8, price: 1460,
     category: "Three Piece",
     images: [
       "file_000000008fd8822f9f023288ebd10884.png",
@@ -149,8 +160,17 @@ const products = [
       "file_00000000172c81f99b765aa226153cc5.png",
       "file_00000000e6ac81f5a3eb99cd3fbed856.png"
     ]
+  },
+  {
+    id: 13, name: "Chikenda Batik", original: 1650, discount: 7, price: 1500,
+    category: "Three Piece",
+    images: [
+      "Gemini_Generated_Image_sercbssercbsserc.jpeg",
+      "file_0000000017848211923f52ca3b2da8f6.png"
+    ]
   }
 ];
+
 
 let activeFilter = "All";
 let cart = [];

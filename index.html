@@ -27,11 +27,11 @@
 <section class="section" id="collections"><div class="sectionhead"><div class="eyebrow">DISCOVER YOUR STYLE</div><h2>Our Collections</h2><p>Elegance for every moment.</p></div>
 <div class="categories">
 <a class="category" href="#shop" onclick="setFilter('Three Piece')"><img src="https://images.unsplash.com/photo-1583391733956-6c78276477e7?auto=format&fit=crop&w=800&q=80" alt=""><span>Three Piece →</span></a>
-<a class="category" href="#shop" onclick="setFilter('Elegant Wear')"><img src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80" alt=""><span>Elegant Wear →</span></a>
+<a class="category" href="#shop" onclick="setFilter('Batik')"><img src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80" alt="Batik Collection"><span>Batik →</span></a>
 <a class="category" href="#shop" onclick="setFilter('New Arrivals')"><img src="https://images.unsplash.com/photo-1597983073493-88cd35cf93c0?auto=format&fit=crop&w=800&q=80" alt=""><span>New Arrivals →</span></a>
 </div></section>
 <section class="section" id="shop"><div class="sectionhead"><div class="eyebrow">HANDPICKED FOR YOU</div><h2>Shop All Products</h2><p>Find your next favourite look.</p></div>
-<div class="toolbar"><div class="filters"><button class="filter active" onclick="setFilter('All')">All</button><button class="filter" onclick="setFilter('Three Piece')">Three Piece</button><button class="filter" onclick="setFilter('Elegant Wear')">Elegant Wear</button><button class="filter" onclick="setFilter('New Arrivals')">New Arrivals</button></div><input class="search" id="search" placeholder="Search products..." oninput="renderProducts()"></div>
+<div class="toolbar"><div class="filters"><button class="filter active" onclick="setFilter('All')">All</button><button class="filter" onclick="setFilter('Three Piece')">Three Piece</button><button class="filter" onclick="setFilter('Batik')">Batik</button><button class="filter" onclick="setFilter('New Arrivals')">New Arrivals</button></div><input class="search" id="search" placeholder="Search products..." oninput="renderProducts()"></div>
 <div class="products" id="products"></div></section>
 <section class="banner"><div class="eyebrow">A LITTLE SOMETHING SPECIAL</div><h2>Elegance Is Always In Season.</h2><p>Discover the latest styles and special offers from TAYEFÉRA.</p><a class="darkbtn" href="#shop">DISCOVER COLLECTION</a></section>
 <section class="section about" id="about"><img src="https://images.unsplash.com/photo-1583391733981-849c7e2c3f6c?auto=format&fit=crop&w=900&q=85" alt="TAYEFÉRA fashion"><div><div class="eyebrow">OUR STORY</div><h2 style="font:38px Georgia,serif">Elegance in Every Thread.</h2><p>TAYEFÉRA celebrates the beauty of women's fashion through timeless style and thoughtful selections. Our vision is to make every moment feel a little more elegant.</p><a class="darkbtn" href="#contact">CONNECT WITH US</a></div></section>
@@ -55,7 +55,7 @@ const WA = "8801971969334";
 const products = [
   {
     id: 1, name: "Mashal Batik", original: 1520, discount: 8, price: 1399,
-    category: "Three Piece",
+    category: "Batik",
     images: [
       "file_00000000f4388211811a7f5841bedd71.png",
       "file_00000000b280821195597954087cf54f.png",
@@ -121,7 +121,7 @@ const products = [
   },
   {
     id: 8, name: "Orgendi Batik", original: 999, discount: 10, price: 900,
-    category: "Three Piece",
+    category: "Batik",
     images: [
       "Gemini_Generated_Image_p3kx88p3kx88p3kx.jpeg",
       "Gemini_Generated_Image_rp26w1rp26w1rp26.jpeg",
@@ -130,7 +130,7 @@ const products = [
   },
   {
     id: 9, name: "Orgendi Batik - New Design", original: 999, discount: 10, price: 900,
-    category: "Three Piece",
+    category: "Batik",
     images: [
       "Gemini_Generated_Image_r57bpr57bpr57bpr.jpeg"
     ]
@@ -163,7 +163,7 @@ const products = [
   },
   {
     id: 13, name: "Chikenda Batik", original: 1650, discount: 7, price: 1500,
-    category: "Three Piece",
+    category: "Batik",
     images: [
       "Gemini_Generated_Image_sercbssercbsserc.jpeg",
       "file_0000000017848211923f52ca3b2da8f6.png"
